@@ -7,6 +7,7 @@ from selenium.common.exceptions import TimeoutException
 import time
 import csv 
 browser = webdriver.Firefox(executable_path=r'C:\Users\Lenovo\Desktop\geckodriver-v0.21.0-win64\geckodriver.exe')
+#enter the link you want to scrape in inverted commas below
 browser.get("")
 city = []
 '''
