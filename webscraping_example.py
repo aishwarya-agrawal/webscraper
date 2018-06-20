@@ -7,7 +7,7 @@ from selenium.common.exceptions import TimeoutException
 import time
 import csv 
 browser = webdriver.Firefox(executable_path=r'C:\Users\Lenovo\Desktop\geckodriver-v0.21.0-win64\geckodriver.exe')
-browser.get("https://hotel.easemytrip.com/Hotel/HotelListing?e=5bf7cb66ac854ee6a93c31699460dda6&SearchQuery=Bikaner||%20India|24/08/2018|31/08/2018|7|1|Bikaner,%20India&NumberOfPax=2")
+browser.get("")
 city = []
 '''
 SCROLL_PAUSE_TIME = 0.5
