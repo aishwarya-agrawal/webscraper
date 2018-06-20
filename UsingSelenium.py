@@ -69,7 +69,7 @@ for i in range(1,51):
 	print(el)
 	city.append(el)
 	
-with open("easemytripdelhi.csv","w") as file1:
+with open("file.csv","w") as file1:
 	writes = csv.writer(file1)
 	writes.writerows(city)
 print("complete")
