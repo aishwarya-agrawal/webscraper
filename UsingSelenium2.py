@@ -7,7 +7,7 @@ from selenium.common.exceptions import TimeoutException
 import time
 import csv 
 browser = webdriver.Firefox(executable_path=r'C:\Users\Lenovo\Desktop\geckodriver-v0.21.0-win64\geckodriver.exe')
-browser.get("https://www.1mg.com/manufacturers")
+browser.get("")
 link = []
 browser.implicitly_wait(5)
 #extract links of companies 
@@ -53,7 +53,7 @@ for medcn in med_name:
 	except:
 		continue
 	print(new)
-with open("1mg_medicines.csv","w") as file1:
+with open("medicines.csv","w") as file1:
 		writes = csv.writer(file1)
 		writes.writerows(med)
 print('complete')
